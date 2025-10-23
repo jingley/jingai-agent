@@ -44,14 +44,20 @@ aiagent/
 │   │   └── ⚙️ config.py          # Configuration constants
 │   └── __init__.py         # Package initialization
 ├── calculator/              # Example package for testing
-│   ├── 🧮 main.py
-│   └── pkg/
-│       ├── calculator.py
-│       └── render.py
-└── tests/                   # Comprehensive test suite
-    ├── test_main.py
-    ├── test_agent_functions.py
-    └── test_calculator.py
+│   ├── 🧮 main.py          # Calculator CLI interface
+│   ├── lorem.txt           # Test text file
+│   └── pkg/                # Calculator package
+│       ├── calculator.py   # Calculator class implementation
+│       ├── render.py       # JSON output formatting
+│       └── __init__.py     # Package initialization
+├── tests/                   # Comprehensive test suite
+│   ├── test_main.py        # CLI interface tests
+│   ├── test_agent_functions.py # File operations tests
+│   └── test_calculator.py  # Calculator module tests
+├── README.md               # Project documentation
+├── TEST_README.md          # Test suite documentation
+├── pyproject.toml          # Project configuration
+└── .env                    # Environment variables (API keys)
 ```
 
 ### Agent Functions
