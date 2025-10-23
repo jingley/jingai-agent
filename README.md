@@ -2,6 +2,8 @@
 
 An agentic AI system built with Google Gemini that can perform file operations, execute Python code, and engage in multi-turn conversations with memory. This project demonstrates the fundamentals of building autonomous AI agents that can interact with the file system and execute code safely.
 
+This is just a personal project with minimal security in place. Please do not just download this and let it run wild.
+
 ## 🎯 Project Overview
 
 This project is based on a **freeCodeCamp guide** for creating agentic AI systems. It showcases how to build an AI agent that can:
